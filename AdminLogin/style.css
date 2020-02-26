@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    background-image:url(images/admin-login.png);
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width:30%;
+    margin:auto;
+    margin-top:10%;
+}
+h3{
+    text-align:right;
+    text-transform:uppercase;
+    font-size:2vw;
+    color:white;
+    margin:0;
+}
+input{
+    display:block;
+    background-color:transparent;
+    border:1px solid rgb(131, 131, 131);
+    width:100%;
+    margin-bottom:25px;
+    padding:10px 0px;
+    
+}
+.submit input{
+    width:20%;
+    background-color:white;
+   float:left;
+   border-radius:4px; 
+}
+.submit input:hover{
+    background-color:rgb(170, 167, 167);
+}
+.lost{
+    text-align:right;
+}
+a{
+    display:inline-block; 
+    
+    overflow:hidden;
+    color:rgb(122, 122, 122);
+    text-decoration:none;
+    font-size:13px;
+    margin-top:5px;
+}
+a:hover{
+    color:white;
+}
+.border1{
+    border-bottom:3px solid white;
+    margin-bottom:30px;
+}
+.border2{
+    margin-top:55px;
+    border-top:3px solid white;
+}
