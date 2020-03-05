@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    font-family:tahoma;
+}
+.container{
+    width:90%;
+    margin:auto;
+}
+.intro-section{
+    height:700px;
+    background-image:url(images/main-background.jpg);
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    
+    
+}
+.intro-section .logo-area{
+    float:left;
+    
+}
+.intro-section .logo-area h2{
+    margin:0;
+    padding:20px;
+    color:white;
+    text-transform:uppercase;
+    font-size:18px;
+}
+.intro-section .main-menu{
+  
+    margin-left:55%;
+ }
+
+.intro-section .main-menu ul{
+    list-style:none;
+    margin:0;
+    padding:25px;
+
+}
+.intro-section .main-menu ul li{
+    float:left;
+    margin-right:5%;
+    display:inline;
+}
+
+.intro-section .main-menu ul li:nth-child(7){
+    float:none;
+}
+.intro-section .main-menu ul li a{
+    text-decoration:none;
+    color:white;
+    text-transform:capitalize;
+    letter-spacing: 1px;
+}
+.intro-section .main-menu ul li a:hover{
+    color:rgb(61, 86, 109)
+}
+.intro-area{
+    text-align:center;
+    margin-top:40vh;
+}
+.intro{
+    overflow:hidden;
+}
+.intro-area .main p{
+    color:white;
+    text-transform:uppercase;
+    font-size:20px;
+    letter-spacing:3px;
+}
+.intro-area .description p{
+    color:white;
+    font-size:15px;
+    letter-spacing:1px;
+}
+.more{
+    padding-top:150px;
+    text-align:center;
+}
+.more i{
+    color:white;
+}
+.more button{
+    background-color:rgb(88, 163, 147);
+     border:1px solid transparent;
+    border-radius:50%;
+}
